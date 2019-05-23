@@ -1,7 +1,8 @@
 
-function sayHello(name){
-  console.log("Hello "+name);
-}
 
-// sayHello("Abhirupa");
-console.log(window);
+// console.log(module);
+
+const log = require('./logger');
+// console.log(logger)
+
+log("My message is being logged");
